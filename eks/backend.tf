@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "my-ews-baket-abi"
+    bucket         = "my-bucket-abi"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "test"
+    dynamodb_table = "demo"
     encrypt        = true
   }
 }
