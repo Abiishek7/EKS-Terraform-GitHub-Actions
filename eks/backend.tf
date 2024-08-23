@@ -10,7 +10,7 @@ terraform {
     bucket         = "my-bucket-samp"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "Lock"
+    dynamodb_table = "Locks"
     encrypt        = true
   }
 }
